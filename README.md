@@ -32,10 +32,6 @@ https://project-daily-vogue.vercel.app/
 - **Stripe**: For handling secure payment processing.
 - **Cloudinary**: For storing and managing images uploaded by users and admins.
 
-## Installation
-
-(Before running, please read the comments in the code that I provided and study the code before running the server.)
-
-### Clone the repository:
+## Clone the repository:
 ```bash
 git clone https://github.com/your-username/PortfolioDome.git
