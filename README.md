@@ -2,6 +2,9 @@
 
 DAILY VOGUE is an e-commerce platform specializing in everyday fashion. We offer a wide range of clothing for all ages and genders. Our mission is to provide stylish, comfortable and versatile clothing for everyone, with a focus on quality and trendiness.
 
+## Project  Website 
+https://project-daily-vogue.vercel.app/
+
 ## Features
 
 - **Responsive design** for an optimal shopping experience on all devices.
