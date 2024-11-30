@@ -1,6 +1,6 @@
 # DAILY VOGUE
 
-DAILY VOGUE is an e-commerce platform specializing in fashion for everyday wear. We provide a wide range of clothing suitable for all genders and ages. Our mission is to deliver stylish, comfortable, and versatile clothing options for everyone, with an emphasis on quality and accessibility.
+DAILY VOGUE is an e-commerce platform specializing in everyday fashion. We offer a wide range of clothing for all ages and genders. Our mission is to provide stylish, comfortable and versatile clothing for everyone, with a focus on quality and trendiness.
 
 ## Features
 
@@ -15,15 +15,15 @@ DAILY VOGUE is an e-commerce platform specializing in fashion for everyday wear.
 ## Technologies Used
 
 ### Front-End:
-- **React**: A JavaScript library for building user interfaces.
-- **HTML**: Markup language for structuring web content.
-- **TailwindCSS**: A utility-first CSS framework for custom styling.
-- **JavaScript**: Programming language used for dynamic content and client-side logic.
+- **React**
+- **HTML**
+- **TailwindCSS**
+- **JavaScript**
 
 ### Back-End:
-- **Node.js**: JavaScript runtime for building scalable server-side applications.
-- **Express**: A Node.js web framework used for building APIs and handling requests.
-- **MongoDB**: A NoSQL database for storing user data, products, and order information.
+- **Node.js**
+- **Express**
+- **MongoDB**
 
 ### Additional Tools:
 - **Stripe**: For handling secure payment processing.
@@ -36,6 +36,3 @@ DAILY VOGUE is an e-commerce platform specializing in fashion for everyday wear.
 ### Clone the repository:
 ```bash
 git clone https://github.com/your-username/PortfolioDome.git
-
-
-
