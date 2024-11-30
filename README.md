@@ -37,17 +37,5 @@ DAILY VOGUE is an e-commerce platform specializing in fashion for everyday wear.
 ```bash
 git clone https://github.com/your-username/PortfolioDome.git
 
-### Front-End / Back-End / admin :
-npm install
-
-### RunCode :
-### Front-End and admin :
-npm run dev
-
-### Back-End
-nodemon server.js
-
-### (Before running, please read the comments in the code that I provided and study the code before running the server.)
-
 
 
