@@ -8,6 +8,8 @@ import {
 import upload from "../middleware/multer.js";
 import adminAuth from "../middleware/adminAuth.js";
 
+/* This code snippet is defining routes for handling product-related operations in a Node.js
+application using Express framework.  */
 const productRouter = express.Router();
 
 productRouter.post(

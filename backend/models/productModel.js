@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+/* This code snippet is defining a Mongoose schema for an order in a MongoDB database. */
 const productSchema = new mongoose.Schema({
   name: { type: String, required: true },
   description: { type: String, required: true },

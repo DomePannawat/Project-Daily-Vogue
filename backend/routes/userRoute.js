@@ -5,6 +5,7 @@ import {
   adminLogin,
 } from "../controllers/userController.js";
 
+/* This code snippet is creating a router for handling user-related routes in an Express application. */
 const userRouter = express.Router();
 
 userRouter.post("/register", registerUser);

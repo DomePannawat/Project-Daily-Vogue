@@ -7,6 +7,15 @@ const createToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET);
 };
 
+/**
+ The `loginUser` function checks the user's email and password, and if they are correct, generates a token. 
+
+    - `req` contains the user's login details (email and password).
+    - `res` sends a response indicating whether the login was successful or not, along with any relevant messages.
+
+If the user is found and the password matches, a success message with a token is returned. 
+If not, an error message is returned indicating either "user doesn't exist" or "invalid credentials."
+ */
 // Route for user login
 const loginUser = async (req, res) => {
   try {
@@ -32,6 +41,16 @@ const loginUser = async (req, res) => {
   }
 };
 
+/**
+ The `registerUser` function handles user registration by checking if the user already exists, 
+ validating the email and password, hashing the password, and then saving the new user to the database.
+
+    - `req` contains the user's registration details (email, password) sent in the request body.
+    - `res` sends a response back to the client with either a success message and token or an error message.
+
+If registration is successful, the response will be `{ success: true, token }`. 
+If there's an error, the response will be `{ success: false, message: error.message }`.
+ */
 // Route for user register
 const registerUser = async (req, res) => {
   try {
@@ -78,6 +97,16 @@ const registerUser = async (req, res) => {
   }
 };
 
+/**
+ The `adminLogin` function checks if the provided email and password match the admin's credentials and 
+ returns a token if they are correct.
+
+    - `req` contains the email and password sent by the client for login.
+    - `res` sends a response back to the client with either a success message and token if login is successful, 
+        or an error message if it's not.
+
+In short: if the admin login is successful, a token is returned; if not, an error message is sent.
+ */
 // Route for admin login
 const adminLogin = async (req, res) => {
   try {

@@ -9,6 +9,8 @@ import cartRouter from "./routes/cartRoute.js";
 import orderRouter from "./routes/orderRoute.js";
 
 // App Config
+/* This code set is the basic settings for the Express app, such as telling the app 
+what kind of data it can receive (e.g. forms or JSON) or how to handle access paths. */
 const app = express();
 const port = process.env.PORT || 4000;
 connectDB();

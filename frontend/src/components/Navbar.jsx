@@ -57,7 +57,7 @@ const Navbar = () => {
 
         {/*a href ถ้ารันแบบ npm run dev เปลื่ยนลิงค์เป็น href="http://localhost:5174/" แทนด้วย */}
         <a
-          href="http://localhost:5174/"
+          href="https://admin-daily-vogue.vercel.app/"
           target="_blank"
           className="border px-5 py-1 text-xs rounded-full -mt-2 text-center flex items-center justify-center bg-white text-black hover:bg-black hover:text-white transition-colors duration-300"
         >
@@ -161,7 +161,7 @@ const Navbar = () => {
           {/*a href ถ้ารันแบบ npm run dev เปลื่ยนลิงค์เป็น href="http://localhost:5174/" แทนด้วย */}
           <a
             onClick={() => setVisible(false)}
-            href="http://localhost:5174/"
+            href="https://admin-daily-vogue.vercel.app/"
             target="_blank"
             className="py-2 pl-6 border"
           >

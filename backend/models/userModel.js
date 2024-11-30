@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+/* This code snippet is defining a Mongoose schema for a user in a MongoDB database. */
 const userSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },

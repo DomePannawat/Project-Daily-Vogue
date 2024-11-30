@@ -10,6 +10,8 @@ import {
 import adminAuth from "../middleware/adminAuth.js";
 import authUser from "../middleware/auth.js";
 
+/* This code snippet is setting up routes for handling different order-related functionalities in a
+Node.js application using Express framework.  */
 const orderRouter = express.Router();
 
 // Admin
